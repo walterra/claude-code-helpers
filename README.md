@@ -18,3 +18,13 @@ A structured workflow for committing staged files only. This command ensures Cla
 - Creates concise one-liner commit messages (60 char max, no semantic prefixes)
 - Handles pre-commit hook issues by running maintenance commands automatically
 - Leaves unstaged files untouched, even if modified by formatters during the process
+
+## commands/curriculum.md
+
+Creates comprehensive onboarding documentation based on code changes in the current branch. This command generates structured learning materials in `./llm-docs/`:
+
+- Analyzes all files changed/added in the current branch using `git diff main...HEAD`
+- Asks targeted questions about audience, focus, detail level, and format preferences
+- Extracts technical concepts, frameworks, and architectural patterns
+- Creates modular markdown documentation with numbered chapters
+- Organizes content from basic to advanced concepts with practical examples and exercises
