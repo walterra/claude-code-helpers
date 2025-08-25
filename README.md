@@ -2,6 +2,8 @@
 
 Notes on Claude Code setup with sample commands.
 
+I played around with subagents a bit. I'm still missing a real use case for them, I prefer to run parallel Claude Code sessions and use commands instead. I suspect subagents might pollute you system prompt.
+
 ## commands/todo.md
 
 This is based on an older version of badlogic's Todo Implementation System: https://github.com/badlogic/claude-commands
