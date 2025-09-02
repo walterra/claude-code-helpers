@@ -28,3 +28,13 @@ Creates comprehensive onboarding documentation based on code changes in the curr
 - Extracts technical concepts, frameworks, and architectural patterns
 - Creates modular markdown documentation with numbered chapters
 - Organizes content from basic to advanced concepts with practical examples and exercises
+
+## commands/post-mortem.md
+
+Analyzes Claude Code chat histories to improve CLAUDE.md and system prompts. This command provides structured analysis of conversation patterns:
+
+- Examines current chat session, file exports, or shared URLs
+- Categorizes successful patterns vs. failures and missed opportunities
+- Identifies root causes in missing context, unclear instructions, or workflow gaps
+- Generates specific recommendations for updating CLAUDE.md and command files
+- Requires user confirmation before applying any documentation improvements

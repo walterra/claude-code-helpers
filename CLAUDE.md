@@ -47,6 +47,16 @@ Structured approach for committing staged files:
 4. **NEVER** use `git add .` or bulk staging - only stage originally staged files
 5. Leave unstaged files (even if modified by formatters) unstaged
 
+### Post-Mortem Analysis (`commands/post-mortem.md`)
+
+Analyzes Claude Code chat histories to identify improvement opportunities:
+
+1. Parse conversation history from current session, file, or URL
+2. Categorize successful vs failed interaction patterns
+3. Identify root causes in missing context, unclear instructions, or workflow gaps
+4. Generate actionable recommendations for updating CLAUDE.md and system prompts
+5. Present findings with user confirmation before applying improvements
+
 ## Architecture Notes
 
 ### Directory Structure
@@ -54,6 +64,7 @@ Structured approach for committing staged files:
 - `commands/` - Contains workflow command definitions
   - `todo.md` - Todo implementation system (enhanced version addressing completion verification issues)
   - `commit.md` - Git commit workflow helpers
+  - `post-mortem.md` - Chat history analysis for CLAUDE.md improvement
 
 ### Key Patterns
 
